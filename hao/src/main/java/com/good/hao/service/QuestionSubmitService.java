@@ -9,11 +9,7 @@ import com.good.hao.model.entity.User;
 import com.good.hao.model.vo.QuestionSubmitVO;
 import com.baomidou.mybatisplus.extension.service.IService;
 
-/**
-* @author 李鱼皮
-* @description 针对表【question_submit(题目提交)】的数据库操作Service
-* @createDate 2023-08-07 20:58:53
-*/
+
 public interface QuestionSubmitService extends IService<QuestionSubmit> {
     
     /**
